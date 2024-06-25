@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/662b8cbd3c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+     <div  class="container">
+        <nav>
+           <img src="images/result (1).gif" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Fronted End Developer</p>
+            <h1>Hi,I'm <span>Priyanshu Raj</span> <br>from Bihar</h1>
+        </div>
+     </div>
+    </div>
+<!------------------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2023-04-02 at 12.03.40.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                   
+                    <p>"Hello! I am an undergraduate student at the National Institute of Technology Patna, majoring in Computer Science and Engineering. I have a strong passion for front-end web development and I am skilled in creating engaging and user-friendly websites. Additionally, I have a keen interest in competitive programming and problem-solving. I enjoy tackling complex challenges and finding efficient solutions.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links after-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                   <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Builiding Android/Ios apps</li>
+                   </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                     <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                     <li><span>Web Development</span><br>Web app Development</li>
+                     <li><span>App Development</span><br>Builiding Android/Ios apps</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                     <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                     <li><span>Web Development</span><br>Web app Development</li>
+                     <li><span>App Development</span><br>Builiding Android/Ios apps</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!----------services--------->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et obcaecati necessitatibus, maiores laudantium quidem qui quae quia a dolor quam blanditiis mollitia deleniti accusantium accusamus provident omnis temporibus vero.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et obcaecati necessitatibus, maiores laudantium quidem qui quae quia a dolor quam blanditiis mollitia deleniti accusantium accusamus provident omnis temporibus vero.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea et obcaecati necessitatibus, maiores laudantium quidem qui quae quia a dolor quam blanditiis mollitia deleniti accusantium accusamus provident omnis temporibus vero.</p>
+            <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!---------portfolio-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/leetcode.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>LEET CODE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iste quis, libero hic provident vel doloremque, amet magnam nemo eum ipsam illum blanditiis totam voluptate dolores laudantium sapiente dolore quidem!</p>
+                    <a href="https://leetcode.com/Priyanshu95m/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gfg.jpeg" alt="" srcset="">
+                <div class="layer">
+                    <h3>GeeksForGeeks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iste quis, libero hic provident vel doloremque, amet magnam nemo eum ipsam illum blanditiis totam voluptate dolores laudantium sapiente dolore quidem!</p>
+                    <a href="https://auth.geeksforgeeks.org/user/priyanshus29e/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/codechef.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>CodeChef</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iste quis, libero hic provident vel doloremque, amet magnam nemo eum ipsam illum blanditiis totam voluptate dolores laudantium sapiente dolore quidem!</p>
+                    <a href="https://www.codechef.com/users/priyanshu9595"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+   </div>
+
+
+   <!------------contact---------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>387465946386</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+                    <a href=""><i class="fa-brands fa-linked"></i></a>
+
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="Submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" id="" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Priyanshu.<i class="fa-solid fa-heart"></i> Made by me</p>
+    </div>
+   </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contemts");
+        
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+
+    </script>
+
+    <script>
+        var sidemeu =document.getElementById("sidemenu");
+
+        function openmenu(){
+             sidemeu.style.right="0";
+        }
+        function closemenu(){
+             sidemeu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxmzytJx0ruPsTsFqXtxy_qC8G79VLUdnPUx5qJlAadlip1YNVc6Ef-5NJIB5lNKvID/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
